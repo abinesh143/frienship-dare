@@ -45,7 +45,7 @@ const Quiz = () => {
       <Head>
         <meta
           property="og:image:url"
-          content="https://res.cloudinary.com/dikpbxcqz/image/upload/v1688907927/hearteyes-1_m64zgr.png"
+          content="/metaIcon.png"
         />
       </Head>
       <div className="text-center m-3 fs-4 fw-medium text-danger-emphasis">
