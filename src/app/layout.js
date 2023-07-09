@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import "bootstrap/dist/css/bootstrap.css";
 import { ReduxProvider } from "@/redux/provider";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,6 +17,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
+        <Head>
+          <meta property="og:image:url" content="https://res.cloudinary.com/dikpbxcqz/image/upload/v1688907927/hearteyes-1_m64zgr.png" />
+        </Head>
         <Navbar />
         <ReduxProvider>{children}</ReduxProvider>
       </body>

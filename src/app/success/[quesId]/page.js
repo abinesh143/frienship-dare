@@ -6,6 +6,7 @@ import WhatsSticker from "@/components/WhatsSticker";
 import { useParams, useRouter } from "next/navigation";
 import { useCallback, useEffect, useRef, useState } from "react";
 import Swal from "sweetalert2";
+import clipboardCopy from "clipboard-copy";
 
 const Success = () => {
   const [count, setCount] = useState(0);
@@ -22,7 +23,7 @@ const Success = () => {
       const shareText = `🤗 ${
         userDetails ? userDetails.name : "your Friend"
       } has sent you Friendship Dare of 2023 👸🤴.%0aTake this Challenge NOW 🤯👇👇👇👇🤯`;
-      const link = `http://www.smileyshopy.in/quiz/${param.quesId}`;
+      const link = `https://www.smileyshopy.in/quiz/${param.quesId}`;
       const url = `whatsapp://send?text=${shareText + "%0a" + link}`;
       window.location.href = url;
       setCount(count + 1);
@@ -40,7 +41,7 @@ const Success = () => {
     }
   };
 
-  const copyLink = async () => {
+  const copyLink = () => {
     const Toast = Swal.mixin({
       toast: true,
       position: "top-end",
@@ -53,22 +54,20 @@ const Success = () => {
       },
     });
 
-    const text = copyText.current;
-    if (document.selection) {
-      var range = document.body.createTextRange();
-      range.moveToElementText(text);
-      range.select().createTextRange();
-      document.execCommand("copy");
-    } else if (window.getSelection) {
-      var range = document.createRange();
-      range.selectNode(text);
-      window.getSelection().addRange(range);
-      document.execCommand("copy");
-    }
-    Toast.fire({
-      icon: "success",
-      title: "Copied to Clipboard",
-    });
+    const text = copyText.current.innerText;
+    clipboardCopy(text)
+      .then(() => {
+        Toast.fire({
+          icon: "success",
+          title: "Copied to Clipboard",
+        });
+      })
+      .catch(() => {
+        Toast.fire({
+          icon: "error",
+          title: "Not Copied Try Again",
+        });
+      });
   };
 
   const viewResults = () => {
@@ -85,8 +84,8 @@ const Success = () => {
       confirmButtonText: "Confirm",
     }).then((result) => {
       if (result.isConfirmed) {
-        sessionStorage.removeItem("quesUser");
-        sessionStorage.removeItem("quesExits");
+        localStorage.removeItem("quesUser");
+        localStorage.removeItem("quesExits");
         router.replace("/");
       }
     });
@@ -109,7 +108,7 @@ const Success = () => {
   }, [fetchResult]);
 
   useEffect(() => {
-    const user = sessionStorage.getItem("quesUser");
+    const user = localStorage.getItem("quesUser");
     if (user) {
       setUserDetails(JSON.parse(user));
     }
@@ -130,7 +129,7 @@ const Success = () => {
             <div
               ref={copyText}
               className="p-2 mx-2 rounded-pill bg-white fs-4 text-primary text-center overflow-hidden"
-            >{`http://www.smileyshopy.in/quiz/${param.quesId}`}</div>
+            >{`https://www.smileyshopy.in/quiz/${param.quesId}`}</div>
           </div>
           <button
             type="button"

@@ -12,7 +12,7 @@ const Questions = () => {
   const [loader, setLoader] = useState(true);
 
   useEffect(() => {
-    const checkUser = sessionStorage.getItem("quesUser");
+    const checkUser = localStorage.getItem("quesUser");
     if (checkUser) {
       setUser(JSON.parse(checkUser));
       setLoader(false);

@@ -1,21 +1,24 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import StartDare from "@/components/StartDare";
 import Modal from "@/components/Modal";
 import { useRouter } from "next/navigation";
 import Footer from "@/components/Footer";
+import Loader from "@/components/Loading";
 
 export default function Home() {
   const router = useRouter();
+  const [loader, setLoader] = useState(true)
 
   useEffect(() => {
-    const quesExists = sessionStorage.getItem("quesExits");
-    const userExists = sessionStorage.getItem("quesUser");
+    const quesExists = localStorage.getItem("quesExits");
+    const userExists = localStorage.getItem("quesUser");
     if (quesExists && userExists) {
       const user = JSON.parse(userExists);
       router.replace(`/success/${user.id}`);
     }
+    setLoader(false)
   }, []);
 
   useEffect(() => {
@@ -24,9 +27,15 @@ export default function Home() {
 
   return (
     <main>
-      <StartDare />
-      <Footer />
-      <Modal></Modal>
+      {loader ? (
+        <Loader />
+      ) : (
+        <div>
+          <StartDare />
+          <Footer />
+          <Modal></Modal>
+        </div>
+      )}
     </main>
   );
 }

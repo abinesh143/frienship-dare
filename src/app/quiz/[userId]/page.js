@@ -71,7 +71,7 @@ const Quiz = () => {
       <div className="container">
         <div className="mt-3">
           <div className="text-center mx-2 my-3 fs-3 fw-medium color-orange">
-            How well you really know Abinesh?
+            How well you really know your Friend?
           </div>
           <ResultTable data={tableData} />
           <div className="d-flex justify-content-center py-4 sticky-bottom bg-white">

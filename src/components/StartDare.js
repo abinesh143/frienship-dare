@@ -11,7 +11,7 @@ const StartDare = () => {
   const handleStartDare = async () => {
     if (username) {
       const id = uid(8);
-      sessionStorage.setItem(
+      localStorage.setItem(
         "quesUser",
         JSON.stringify({ name: username, id: id })
       );

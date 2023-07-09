@@ -98,7 +98,7 @@ const MainSection = (props) => {
           });
 
           if (res?.status == 200) {
-            sessionStorage.setItem("quesExits", true);
+            localStorage.setItem("quesExits", true);
           }
 
           setTimeout(() => {
