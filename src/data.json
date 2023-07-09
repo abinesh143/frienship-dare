@@ -1,0 +1,710 @@
+[
+  {
+    "question": {
+      "slug": "ques1",
+      "text": "What is your favorite drink?"
+    },
+    "answer": [
+      {
+        "id": "1",
+        "url": "/juice.jpg",
+        "text": "Juice",
+        "selected": false
+      },
+      {
+        "id": "2",
+        "url": "/milk.jpg",
+        "text": "Milk",
+        "selected": false
+      },
+      {
+        "id": "3",
+        "url": "/water.jpg",
+        "text": "Water",
+        "selected": false
+      },
+      {
+        "id": "4",
+        "url": "/alcohol.jpg",
+        "text": "Alcohol",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "question": {
+      "slug": "ques2",
+      "text": "Which of these describe your character?"
+    },
+    "answer": [
+      {
+        "id": "5",
+        "url": "/kind.jpg",
+        "text": "Kind",
+        "selected": false
+      },
+      {
+        "id": "6",
+        "url": "/friendly.jpg",
+        "text": "Friendly",
+        "selected": false
+      },
+      {
+        "id": "7",
+        "url": "/serious.jpg",
+        "text": "Serious",
+        "selected": false
+      },
+      {
+        "id": "8",
+        "url": "/funny.jpg",
+        "text": "Funny",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "question": {
+      "slug": "ques3",
+      "text": "What season is your favorite?"
+    },
+    "answer": [
+      {
+        "id": "9",
+        "url": "/winter.jpg",
+        "text": "Winter",
+        "selected": false
+      },
+      {
+        "id": "10",
+        "url": "/summer.jpg",
+        "text": "Summer",
+        "selected": false
+      },
+      {
+        "id": "11",
+        "url": "/autumn.jpg",
+        "text": "Autumn",
+        "selected": false
+      },
+      {
+        "id": "12",
+        "url": "/rainy.jpg",
+        "text": "Rainy",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "question": {
+      "slug": "ques4",
+      "text": "Do you like veg or non-veg?"
+    },
+    "answer": [
+      {
+        "id": "13",
+        "url": "/veg.jpg",
+        "text": "Veg",
+        "selected": false
+      },
+      {
+        "id": "14",
+        "url": "/nonveg.jpg",
+        "text": "Non-Veg",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "question": {
+      "slug": "ques5",
+      "text": "With whom do you like to spend your time?"
+    },
+    "answer": [
+      {
+        "id": "15",
+        "url": "/alone.png",
+        "text": "Alone",
+        "selected": false
+      },
+      {
+        "id": "16",
+        "url": "/family.png",
+        "text": "Family",
+        "selected": false
+      },
+      {
+        "id": "17",
+        "url": "/friends.png",
+        "text": "Friends",
+        "selected": false
+      },
+      {
+        "id": "18",
+        "url": "/love.png",
+        "text": "Love",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "question": {
+      "slug": "ques6",
+      "text": "How you like to travel in your day to day life?"
+    },
+    "answer": [
+      {
+        "id": "19",
+        "url": "/bike.jpg",
+        "text": "Bike",
+        "selected": false
+      },
+      {
+        "id": "20",
+        "url": "/car.jpg",
+        "text": "Car",
+        "selected": false
+      },
+      {
+        "id": "21",
+        "url": "/train.jpg",
+        "text": "Train",
+        "selected": false
+      },
+      {
+        "id": "22",
+        "url": "/plane.jpg",
+        "text": "Plane",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "question": {
+      "slug": "ques7",
+      "text": "Which Emoji do you use frequently?"
+    },
+    "answer": [
+      {
+        "id": "23",
+        "url": "/hearteyes.jpg",
+        "text": "Heart in Eyes",
+        "selected": false
+      },
+      {
+        "id": "24",
+        "url": "/joyemoji.jpg",
+        "text": "Laugh Emoji",
+        "selected": false
+      },
+      {
+        "id": "25",
+        "url": "/kissemogi.jpg",
+        "text": "Kiss Emoji",
+        "selected": false
+      },
+      {
+        "id": "26",
+        "url": "/smileemogi.jpg",
+        "text": "Smile Emoji",
+        "selected": false
+      },
+      {
+        "id": "27",
+        "url": "/heart.jpg",
+        "text": "Heart Emoji",
+        "selected": false
+      },
+      {
+        "id": "28",
+        "url": "/Thumbs-Up.jpg",
+        "text": "Thumps Up",
+        "selected": false
+      },
+      {
+        "id": "29",
+        "url": "/angry.jpg",
+        "text": "Angry Emoji",
+        "selected": false
+      },
+      {
+        "id": "30",
+        "url": "/tonguemoji.jpg",
+        "text": "Tongue Emoji",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "question": {
+      "slug": "ques8",
+      "text": "Which app do you use the most?"
+    },
+    "answer": [
+      {
+        "id": "31",
+        "url": "/fb.jpg",
+        "text": "Facebook",
+        "selected": false
+      },
+      {
+        "id": "32",
+        "url": "/insta.jpg",
+        "text": "Instagram",
+        "selected": false
+      },
+      {
+        "id": "33",
+        "url": "/snap.jpg",
+        "text": "Snapchat",
+        "selected": false
+      },
+      {
+        "id": "34",
+        "url": "/whats.jpg",
+        "text": "Whatsapp",
+        "selected": false
+      },
+      {
+        "id": "35",
+        "url": "/tube.jpg",
+        "text": "Youtube",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "question": {
+      "slug": "ques9",
+      "text": "Which one will you choose?"
+    },
+    "answer": [
+      {
+        "id": "36",
+        "url": "/sun.jpg",
+        "text": "Sun",
+        "selected": false
+      },
+      {
+        "id": "37",
+        "url": "/moon.jpg",
+        "text": "Moon",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "question": {
+      "slug": "ques10",
+      "text": "What would you rather choose?"
+    },
+    "answer": [
+      {
+        "id": "38",
+        "url": "/skydive.jpg",
+        "text": "Sky Diving",
+        "selected": false
+      },
+      {
+        "id": "39",
+        "url": "/bungijump.jpg",
+        "text": "Bumgi Jump",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "question": {
+      "slug": "ques11",
+      "text": "Which one do you like?"
+    },
+    "answer": [
+      {
+        "id": "40",
+        "url": "/sweet.jpg",
+        "text": "Sweet",
+        "selected": false
+      },
+      {
+        "id": "41",
+        "url": "/spicy.jpg",
+        "text": "Spicy",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "question": {
+      "slug": "ques12",
+      "text": "Which one do you like: beard or shaved?"
+    },
+    "answer": [
+      {
+        "id": "42",
+        "url": "/beard.jpg",
+        "text": "Beard",
+        "selected": false
+      },
+      {
+        "id": "43",
+        "url": "/shaved.jpg",
+        "text": "Shaved",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "question": {
+      "slug": "ques13",
+      "text": "What kind of hair do you like?"
+    },
+    "answer": [
+      {
+        "id": "44",
+        "url": "/short.jpg",
+        "text": "Short Hair",
+        "selected": false
+      },
+      {
+        "id": "45",
+        "url": "/long.jpg",
+        "text": "Long Hair",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "question": {
+      "slug": "ques14",
+      "text": "What exercise do you like?"
+    },
+    "answer": [
+      {
+        "id": "46",
+        "url": "/dance.jpg",
+        "text": "Dance",
+        "selected": false
+      },
+      {
+        "id": "47",
+        "url": "/running.jpg",
+        "text": "Running",
+        "selected": false
+      },
+      {
+        "id": "48",
+        "url": "/gym.jpg",
+        "text": "Gym",
+        "selected": false
+      },
+      {
+        "id": "49",
+        "url": "/yoga.jpg",
+        "text": "Yoga",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "question": {
+      "slug": "ques15",
+      "text": "What is your Favourite Ice-Cream?"
+    },
+    "answer": [
+      {
+        "id": "50",
+        "url": "/chocky.jpg",
+        "text": "Chocolate",
+        "selected": false
+      },
+      {
+        "id": "51",
+        "url": "/straw.jpg",
+        "text": "Strawberry",
+        "selected": false
+      },
+      {
+        "id": "52",
+        "url": "/butter.jpg",
+        "text": "Butter Scotch",
+        "selected": false
+      },
+      {
+        "id": "53",
+        "url": "/vanila.jpg",
+        "text": "vanila",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "question": {
+      "slug": "ques16",
+      "text": "Which life is best?"
+    },
+    "answer": [
+      {
+        "id": "54",
+        "url": "/oneside.jpg",
+        "text": "One Side",
+        "selected": false
+      },
+      {
+        "id": "55",
+        "url": "/commited.jpg",
+        "text": "Committed",
+        "selected": false
+      },
+      {
+        "id": "56",
+        "url": "/single.jpg",
+        "text": "Single",
+        "selected": false
+      },
+      {
+        "id": "57",
+        "url": "/arrange.jpg",
+        "text": "Married",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "question": {
+      "slug": "ques17",
+      "text": "What do you prefer as a gift on your birthday"
+    },
+    "answer": [
+      {
+        "id": "58",
+        "url": "/surprise.jpg",
+        "text": "Surprise Me",
+        "selected": false
+      },
+      {
+        "id": "59",
+        "url": "/rose.jpg",
+        "text": "Rose",
+        "selected": false
+      },
+      {
+        "id": "60",
+        "url": "/choc.jpg",
+        "text": "Chocolate",
+        "selected": false
+      },
+      {
+        "id": "61",
+        "url": "/teddy.jpg",
+        "text": "Teddy",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "question": {
+      "slug": "ques18",
+      "text": "If you meets a genie, what would be your wish?"
+    },
+    "answer": [
+      {
+        "id": "62",
+        "url": "/superpower.jpg",
+        "text": "Super Power",
+        "selected": false
+      },
+      {
+        "id": "63",
+        "url": "/money.jpg",
+        "text": "Money",
+        "selected": false
+      },
+      {
+        "id": "64",
+        "url": "/king.jpg",
+        "text": "King of World",
+        "selected": false
+      },
+      {
+        "id": "65",
+        "url": "/loveof.png",
+        "text": "True Love",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "question": {
+      "slug": "ques19",
+      "text": "What is more important to you?"
+    },
+    "answer": [
+      {
+        "id": "66",
+        "url": "/luvcartoon.jpg",
+        "text": "Love",
+        "selected": false
+      },
+      {
+        "id": "67",
+        "url": "/moneyeuro.jpg",
+        "text": "Money",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "question": {
+      "slug": "ques20",
+      "text": "Which is your favourite pet?"
+    },
+    "answer": [
+      {
+        "id": "68",
+        "url": "/cat.jpg",
+        "text": "Cat",
+        "selected": false
+      },
+      {
+        "id": "69",
+        "url": "/dog.jpg",
+        "text": "Dog",
+        "selected": false
+      },
+      {
+        "id": "70",
+        "url": "/Bird.jpg",
+        "text": "Bird",
+        "selected": false
+      },
+      {
+        "id": "71",
+        "url": "/Fish.jpg",
+        "text": "Fish",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "question": {
+      "slug": "ques21",
+      "text": "What your favorite movie genre?"
+    },
+    "answer": [
+      {
+        "id": "72",
+        "url": "/action.jpg",
+        "text": "Action",
+        "selected": false
+      },
+      {
+        "id": "73",
+        "url": "/science.jpg",
+        "text": "Science Fiction",
+        "selected": false
+      },
+      {
+        "id": "74",
+        "url": "/comedy.jpg",
+        "text": "Comedy",
+        "selected": false
+      },
+      {
+        "id": "75",
+        "url": "/hoor.jpg",
+        "text": "Horror",
+        "selected": false
+      },
+      {
+        "id": "76",
+        "url": "/animation.jpg",
+        "text": "Animation",
+        "selected": false
+      },
+      {
+        "id": "77",
+        "url": "/romantic.jpg",
+        "text": "Romantic",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "question": {
+      "slug": "ques22",
+      "text": "Which Phone do you have?"
+    },
+    "answer": [
+      {
+        "id": "78",
+        "url": "/android.jpg",
+        "text": "Andriod",
+        "selected": false
+      },
+      {
+        "id": "79",
+        "url": "/iphone.jpg",
+        "text": "Apple",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "question": {
+      "slug": "ques23",
+      "text": "What is one thing/activity that makes you relax?"
+    },
+    "answer": [
+      {
+        "id": "80",
+        "url": "/sleep.jpg",
+        "text": "Sleep",
+        "selected": false
+      },
+      {
+        "id": "81",
+        "url": "/music.jpg",
+        "text": "Music",
+        "selected": false
+      },
+      {
+        "id": "82",
+        "url": "/dancing.jpg",
+        "text": "Dancing",
+        "selected": false
+      },
+      {
+        "id": "83",
+        "url": "/reading.jpg",
+        "text": "Reading",
+        "selected": false
+      },
+      {
+        "id": "84",
+        "url": "/drive.jpg",
+        "text": "Go & Drive",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "question": {
+      "slug": "ques24",
+      "text": "Which type of wedding do you like?"
+    },
+    "answer": [
+      {
+        "id": "85",
+        "url": "/luvmrg.jpg",
+        "text": "Luv Mrg",
+        "selected": false
+      },
+      {
+        "id": "86",
+        "url": "/arrange.jpg",
+        "text": "Arrange Mrg",
+        "selected": false
+      }
+    ]
+  }
+]
