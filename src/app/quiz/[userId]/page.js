@@ -2,6 +2,7 @@
 
 import Modal from "@/components/Modal";
 import ResultTable from "@/components/Resulttable";
+import Head from "next/head";
 import { useParams, useRouter } from "next/navigation";
 import { useCallback, useEffect, useState } from "react";
 
@@ -41,6 +42,12 @@ const Quiz = () => {
 
   return (
     <div>
+      <Head>
+        <meta
+          property="og:image:url"
+          content="https://res.cloudinary.com/dikpbxcqz/image/upload/v1688907927/hearteyes-1_m64zgr.png"
+        />
+      </Head>
       <div className="text-center m-3 fs-4 fw-medium text-danger-emphasis">
         HOW WELL DO YOUR FRIENDS KNOW YOU?
       </div>

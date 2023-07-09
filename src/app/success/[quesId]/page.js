@@ -20,15 +20,22 @@ const Success = () => {
 
   const shareOnWhats = () => {
     if (count < 20) {
+      setCount(count + 1);
       const shareText = `🤗 ${
         userDetails ? userDetails.name : "your Friend"
       } has sent you Friendship Dare of 2023 👸🤴.%0aTake this Challenge NOW 🤯👇👇👇👇🤯`;
       const link = `https://www.smileyshopy.in/quiz/${param.quesId}`;
       const url = `whatsapp://send?text=${shareText + "%0a" + link}`;
       window.location.href = url;
-      setCount(count + 1);
+    } else {
+      const shareText = `🤗 ${
+        userDetails ? userDetails.name : "your Friend"
+      } has sent you Friendship Dare of 2023 👸🤴.%0aTake this Challenge NOW 🤯👇👇👇👇🤯`;
+      const link = `https://www.smileyshopy.in/quiz/${param.quesId}`;
+      const url = `whatsapp://send?text=${shareText + "%0a" + link}`;
+      window.location.href = url;
     }
-    if (count % 3 == 1) {
+    if (count % 3 == 1 || count == 20) {
       const element = animated.current;
       if (element) {
         const rect = element.getBoundingClientRect();
