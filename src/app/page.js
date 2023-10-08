@@ -6,6 +6,7 @@ import Modal from "@/components/Modal";
 import { useRouter } from "next/navigation";
 import Footer from "@/components/Footer";
 import Loader from "@/components/Loading";
+import Image from "next/image";
 
 export default function Home() {
   const router = useRouter();
