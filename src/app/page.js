@@ -32,6 +32,7 @@ export default function Home() {
       ) : (
         <div>
           <StartDare />
+          <Image src='/animated.webp' alt="animated" height={300} width={300} />
           <Footer />
           <Modal></Modal>
         </div>
