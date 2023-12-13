@@ -36,6 +36,7 @@ export default function Home() {
           <Image src='/moving.gif' alt="animated" height={300} width={300} />
           <Footer />
           <Modal></Modal>
+          <div>ABinesh is coming</div>
         </div>
       )}
     </main>
