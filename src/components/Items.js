@@ -37,11 +37,13 @@ const Items = () => {
             data.map((d, index) => (
               <div key={d._id} className="col-12 col-sm-6 col-lg-3 p-3">
                 <div className="card">
-                  <img
-                    src={d.imageUrl}
-                    className="card-img-top img-fluid"
-                    alt="product"
-                  />
+                  <div className="product-img-head">
+                    <img
+                      src={d.imageUrl}
+                      className="card-img-top product-img"
+                      alt="product"
+                    />
+                  </div>
                   <div className="card-body d-flex justify-content-center">
                     <a
                       href={d.amazonLink}

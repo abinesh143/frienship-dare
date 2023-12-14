@@ -23,77 +23,6 @@
   color: orange;
 }
 
-/* Range meter */
-
-.wrapper {
-  width: 300px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-}
-
-.rang {
-  text-align: center;
-}
-
-.rang-title {
-  display: inline-block;
-  width: 200px;
-}
-
-.rang-number {
-  width: 100%;
-  margin-top: 20px;
-  text-align: center;
-  border-width: 0;
-  font-size: 32px;
-  font-weight: 700;
-  background-color: #fff;
-  color: #0093d7;
-}
-
-.meter {
-  display: block;
-  width: 263px;
-  height: 155px;
-}
-
-.meter-left {
-  transform: skewX(-2deg) skewY(1deg);
-  stroke-width: 38;
-  stroke-dashoffset: 253;
-  stroke-dasharray: 120 400;
-  stroke: #ffc815;
-  fill: none;
-}
-
-.meter-center {
-  stroke-width: 36;
-  stroke-dashoffset: 128;
-  stroke-dasharray: 120 400;
-  stroke: #a3cd3b;
-  fill: none;
-}
-
-.meter-right {
-  transform: skewX(2deg) skewY(1deg);
-  stroke-width: 38;
-  stroke-dashoffset: 5;
-  stroke-dasharray: 120 400;
-  stroke: #0093d7;
-  fill: none;
-}
-
-.meter-clock {
-  transform: rotate(-90deg);
-  transform-origin: 137px 146px;
-  fill: black;
-}
-
-.meter-circle {
-  fill: black;
-}
-
 .btn-orange-moon {
   background: #fc4a1a;
   background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);
@@ -275,5 +204,10 @@
   100% {
     transform: scale(1, 1);
   }
+}
+
+.product-img {
+  height: 360px;
+  object-fit: cover;
 }
 
