@@ -13,8 +13,37 @@ const mongo = new MongoClient(uri, options);
 const sampleProduct = [
   {
     _id: "1",
-    imageUrl:
-      "/empty.jpg",
+    imageUrl: "/tee2.jpg",
+    category: "mens-tamil",
+    amazonLink: "https://games.smileyshopy.in/",
+  },
+  {
+    _id: "2",
+    imageUrl: "/tee3.jpg",
+    category: "mens-tamil",
+    amazonLink: "https://games.smileyshopy.in/",
+  },
+  {
+    _id: "3",
+    imageUrl: "/tee4.jpg",
+    category: "mens-tamil",
+    amazonLink: "https://games.smileyshopy.in/",
+  },
+  {
+    _id: "4",
+    imageUrl: "/tee5.jpg",
+    category: "mens-tamil",
+    amazonLink: "https://games.smileyshopy.in/",
+  },
+  {
+    _id: "5",
+    imageUrl: "/tee6.jpg",
+    category: "mens-tamil",
+    amazonLink: "https://games.smileyshopy.in/",
+  },
+  {
+    _id: "6",
+    imageUrl: "/tee7.jpg",
     category: "mens-tamil",
     amazonLink: "https://games.smileyshopy.in/",
   },
@@ -25,10 +54,10 @@ export async function GET(req) {
   // const query = new URLSearchParams(url.search);
   // const id = query.get("id");
   try {
-    const client = await mongo.connect();
-    const db = client.db("smiley");
-    const allProduct = await db.collection("product").find({}).toArray();
-    await mongo.close();
+    // const client = await mongo.connect();
+    // const db = client.db("smiley");
+    // const allProduct = await db.collection("product").find({}).toArray();
+    // await mongo.close();
     // return NextResponse.json(allProduct);
     return NextResponse.json(sampleProduct);
   } catch (error) {

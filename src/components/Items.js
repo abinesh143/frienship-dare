@@ -20,7 +20,6 @@ const Items = () => {
       method: "GET",
     });
     const allProducts = await response.json();
-    console.log(allProducts);
     setData(allProducts);
   }, []);
 
@@ -40,7 +39,7 @@ const Items = () => {
                 <div className="card">
                   <img
                     src={d.imageUrl}
-                    className="card-img-top"
+                    className="card-img-top img-fluid"
                     alt="product"
                   />
                   <div className="card-body d-flex justify-content-center">
@@ -57,7 +56,7 @@ const Items = () => {
               </div>
             ))
           ) : (
-            <div style={{ height: '50vh'}}>
+            <div style={{ height: "50vh" }}>
               <Loader />
             </div>
           )}
